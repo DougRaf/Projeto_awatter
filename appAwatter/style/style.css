@@ -1,0 +1,43 @@
+@media (min-width: 575px) {
+    .login {display: none;}
+    .footer{display: none;}
+}
+
+.logo_frente {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+.logo_central {
+    margin-left: 60px;
+}
+
+.btn-principal {
+    width: 363px;
+    position: absolute;
+    left: -73px;
+    top: 170px;
+}
+
+.btn-font{
+    background-color: #468738;
+    font: -webkit-small-control;
+    color: white;
+}
+
+.btn-font:hover {
+    background-color: #468738;
+    font: -webkit-small-control;
+    color:#71aafd;
+}
+
+.footer {
+    /* text-align: center; */
+    font-size: 15px;
+    position: fixed;
+    top: 575px;
+    margin-left: 15%;
+}
+
+

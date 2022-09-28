@@ -1,0 +1,69 @@
+@media (min-width: 575px) {
+    .data {display: none;}
+    .fundo {display: none;}
+    .pesquisa-input {display: none;}
+    .input-form {display: none;}
+    .lupa {display: none;}
+    .circulo {display: none;}
+}
+
+
+.fundo{
+    background: url("../img/f1.jpeg") no-repeat;
+    height: 649px;
+    margin-left: -15px;
+    margin-right: -12px;
+    
+}
+
+.data {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.pesquisa-input{
+    background: transparent;
+}
+
+
+.input-form {
+    display: block;
+    width: 34%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #f8f9fa;
+    background-color: transparent;
+    margin-left: 125px;
+    margin-top: -47px;
+    border: 0px;
+}
+
+img.lupa {
+    width: 25px;
+    margin-left: 265px;
+    margin-top: -65px;
+}
+
+img.circulo {
+    width: 75px;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 295px;
+    border: solid;
+    border-color:white;
+}
+
+.footer {
+    /* text-align: center; */
+    font-size: 15px;
+    position: fixed;
+    top: 575px;
+    margin-left: 15%;
+    color: white;
+}
