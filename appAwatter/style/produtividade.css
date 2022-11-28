@@ -1,0 +1,72 @@
+@media (min-width: 575px) {
+    .fundo {display: none;}
+    .circulo {display: none;}
+    .titulo {display: none;}
+}
+
+.fundo {
+    height: 899px;
+    margin-left: -15px;
+    margin-right: -12px;
+    background-color:#0e320ee8;
+}
+
+img.circulo {
+    width: 75px;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    border: solid;
+    border-color: white;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+a.btn-voltar {
+    position: relative;
+    left: 50px;
+    top: 35px;    
+    font-weight: bold;    
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-size: 30px;    
+}
+
+.link {
+    background-color: #f1f5f1;
+    color: #181717;
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: .375rem 5.75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    position: relative;
+    top: -17px;
+    width: 330px;
+}
+
+.grafico{
+    margin-left: 20px;
+    margin-right: 20px;
+}

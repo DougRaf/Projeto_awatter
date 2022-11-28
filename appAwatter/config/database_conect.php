@@ -32,8 +32,4 @@
             echo "<script>alert('Problema com base de dados');location.href=\"../index.php\";</script>";
     }
 
-
-   
-      
-    
 ?>

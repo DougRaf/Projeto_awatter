@@ -1,1 +1,6 @@
-<h1>testando isso aqui</h1>
+<?php
+session_start();
+
+$_SESSION['teste'] = 'Funcionou';
+echo $_SESSION['teste'];
+?>

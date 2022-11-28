@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
 
     $servidor = "92.205.11.133:3306";
     $usuario = "desqu_agrocota";
@@ -16,7 +18,10 @@
     $rows = mysqli_num_rows($query);   
   
     if ($rows != 0){ 
+        $_SESSION['usuario'] = $email;
+        $_SESSION['senha'] = $senha;
         header("Location:../pages/home.php");
+
     } else {
         echo "<script>alert('erro ao conectar');location.href=\"../index.php\";</script>"; 
     }
